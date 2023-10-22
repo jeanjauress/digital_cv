@@ -1,1 +1,1 @@
-# digital_cv
+# streamlit_personal
