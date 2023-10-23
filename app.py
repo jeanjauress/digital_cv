@@ -1,7 +1,7 @@
 from PIL import Image
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 
 
 #Find mode emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -19,7 +19,7 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-lottie_coding = load_lottieurl("https://lottie.host/51d5730b-905f-4822-83fd-b9bf52e0e500/fzaw4emYp0.json")
+#lottie_coding = load_lottieurl("https://lottie.host/51d5730b-905f-4822-83fd-b9bf52e0e500/fzaw4emYp0.json")
 img_contact = Image.open("images/project.png")
 
 
@@ -49,8 +49,8 @@ with st.container():
 			)
 		st.write("[Voir plus](https://www.linkedin.com/in/ndajaures/)")
 
-	with right_column:
-		st_lottie(lottie_coding, height=300, key="coding")
+	#with right_column:
+		#st_lottie(lottie_coding, height=300, key="coding")
 
 
 with st.container():
